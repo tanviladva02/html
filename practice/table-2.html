@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<center>
+			<table border="1" cellpadding="15" cellspacing="0" width="720px">
+				<caption>Nested Table</caption>
+				<thead>
+					<tr>
+						<th>Header Column 1</th>
+						<th>Header Column 2</th>
+						<th>Header Column 3</th>
+						<th>Header Column 4</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Row 2-Item 1</td>
+						<td>Row 2-Item 2</td>
+						<td rowspan="2">
+							<center>
+								<table border="1" cellpadding="15" cellspacing="0">
+									<caption>Row 2:Nested Table 1</caption>
+									<thead>
+										<tr>
+											<th>Row 1 Header</th>
+											<td>Item</td>
+										</tr>
+										<tr>
+											<th>Row 2 Header</th>
+											<td>Item</td>
+										</tr>
+										<tr>
+											<th>Row 2 Header</th>
+											<td>Item</td>
+										</tr>
+									</thead>
+								</table>
+							</center>
+						</td>
+						<td>Row 2-Item 4 A Second Line</td>
+					</tr>
+					
+					<tr>
+						<center>
+							<td>
+								<table border="1" cellpadding="15" cellspacing="0">
+									<caption>Row 3:Nested Table 2</caption>
+									<thead>
+										<tr>
+											<th>Row 1 Header</th>
+											<td>Item</td>
+										</tr>
+										<tr>
+											<th>Row 2 Header</th>
+											<td>Item</td>
+										</tr>
+									</thead>
+								</table>
+							</td>
+						</center>
+							
+						<td>Row 3 Item-2</td>
+						<td rowspan="2">Row 3 Item-3</td>
+					</tr>
+					
+					<tr>
+						<td>Row 4-Items 1</td>
+						<td>Row 4-Items 2</td>
+						<td>Row 4-Items 3</td>
+					</tr>
+					
+					<tr>
+						<td colspan="4">Row 5-Last Row Of Outer Table</td>
+					</tr>
+				</tbody>
+			</table>
+		</center>
+	</body>
+</html>
